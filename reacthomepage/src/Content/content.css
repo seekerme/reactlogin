@@ -1,0 +1,11 @@
+.contentcss{
+    height:500px;
+    background-image: url("../resources/homepageedu.png");        
+    background-repeat: no-repeat;   
+    background-position: top;
+    clear:both;
+     /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+}
