@@ -1,23 +1,24 @@
 .logincss{   
+    display: inline-flex;  
+    background-color: #555;  
 }
-
-.logincss > button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
+.logincss > div >a{
+    padding:10px 50px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 11px 98px 2px 93px;
-    cursor: pointer;   
-    float: right; 
+    color:white;
+    font-weight: bold;    
+}
+.logincss > div{    
+    margin-top:10px;
 }
 
-.logincss > img{
-    display: inline-block;
-    float:left;
-    margin-left:98px;
-    height:51px;    
+.logincss > div >button{
+    padding:0px 50px;    
+    background-color: #555;
+    font-weight: bold;
+    color:white
+}
+
+.logincss > div >img{           
+    height:30px;    
 }

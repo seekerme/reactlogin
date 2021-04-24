@@ -1,11 +1,16 @@
 .contentcss{
-    height:500px;
-    background-image: url("../resources/homepageedu.png");        
-    background-repeat: no-repeat;   
-    background-position: top;
-    clear:both;
-     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
+    margin-top:10px;
 }
+
+.thumbs-wrapper.axis-vertical{
+    display: none;
+}
+
+.carousel-root img{
+    height: 300px !important;
+    width: 700px !important;;
+}
+
+
+
+  
